@@ -15,7 +15,7 @@ const io = new Server(server); // Attach Socket.IO to the HTTP server
         // Set up PostgreSQL connection
         const pool = new Pool({
            // connectionString: process.env.DATABASE_URL, // Ensure this includes sslmode=require
-            connectionString: 'postgresql://default:FZ0qtf4AwaDH@ep-blue-violet-a4jl22ki.us-east-1.aws.neon.tech:5432/verceldb?sslmode=prefer',
+            connectionString: 'postgresql://default:dfdffdf@ep-blue-violet-aweew322ki.us-east-1.aws.neon.tech:5432/verceldb?sslmode=prefer',
 
             ssl: {
                 rejectUnauthorized: false // This should be set according to your SSL cert status
